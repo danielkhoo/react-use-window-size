@@ -1,1 +1,1 @@
-export function useScroll(): number;
+export function useWindowSize(): { width: number; height: number };

@@ -1,18 +1,18 @@
 import { useState, useEffect } from 'react';
 
-const useScroll = () => {
-  const [scroll, setScroll] = useState(0);
+const useWindowSize = () => {
+  const [windowSize, setWindowSize] = useState({ width: window.innerWidth, height: window.innerHeight });
 
   useEffect(() => {
-    window.addEventListener('scroll', scrollHandler);
+    window.addEventListener('resize', resizeHandler);
     return () => {
-      window.removeEventListener('scroll', scrollHandler);
+      window.removeEventListener('resize', resizeHandler);
     };
   });
-  const scrollHandler = () => {
-    setScroll(window.scrollY);
+  const resizeHandler = () => {
+    setWindowSize({ width: window.innerWidth, height: window.innerHeight });
   };
-  return scroll;
+  return windowSize;
 };
 
-export default useScroll;
+export default useWindowSize;
