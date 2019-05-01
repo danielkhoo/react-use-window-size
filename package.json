@@ -1,0 +1,19 @@
+{
+  "name": "usescroll",
+  "version": "0.0.1",
+  "description": "Custom React Hook to get vertical scroll position",
+  "license": "MIT",
+  "homepage": "https://github.com/danielkhoo/usescroll",
+  "repository": "github:danielkhoo/usescroll",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "keywords": [
+    "React",
+    "Hooks",
+    "Scroll",
+    "scrollY"
+  ],
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}
