@@ -1,6 +1,6 @@
 {
   "name": "react-use-window-size",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Custom React Hook to get width of the browser window ",
   "license": "MIT",
   "homepage": "https://github.com/danielkhoo/react-use-window-size",
