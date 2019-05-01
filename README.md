@@ -1,7 +1,7 @@
 # useScroll - Custom React Hook
 
-[![](https://img.shields.io/npm/v/nric.svg?style=flat)](https://github.com/danielkhoo/react-use-scroll)
-[![](https://img.shields.io/bundlephobia/min/nric.svg?style=flat)](https://github.com/danielkhoo/react-use-scroll)
+[![](https://img.shields.io/npm/v/react-use-scroll.svg?style=flat)](https://github.com/danielkhoo/react-use-scroll)
+[![](https://img.shields.io/bundlephobia/min/react-use-scroll.svg?style=flat)](https://github.com/danielkhoo/react-use-scroll)
 
 A custom React Hook to get the vertical scroll of the window.
 Useful for conditionally rendering elements at fixed scroll points like Sticky Menus or Notifications.
