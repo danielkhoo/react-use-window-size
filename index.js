@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const useScroll = () => {
-  const [scroll, setScroll] = useState(null);
+  const [scroll, setScroll] = useState(0);
 
   useEffect(() => {
     window.addEventListener('scroll', scrollHandler);
