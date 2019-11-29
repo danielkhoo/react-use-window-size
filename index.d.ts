@@ -1,1 +1,1 @@
-export function useWindowSize(): { width: number; height: number };
+export default function useWindowSize(): { width: number; height: number };
